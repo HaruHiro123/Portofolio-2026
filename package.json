@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "tailwindcss": "4.3.3"
+  },
+  "name": "wahyu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portofolio multi-halaman Wahyu dengan Tailwind CSS dan JavaScript",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  }
+}
